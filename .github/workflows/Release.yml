@@ -25,7 +25,7 @@ jobs:
       
       - name: Install Rojo
         shell: bash
-        run: rokit add rojo
+        run: rokit add rojo-rbx/rojo
 
       - name: Build scheduler.rbxm
         run: rojo build -o scheduler.rbxm default.project.json
