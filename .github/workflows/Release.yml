@@ -22,6 +22,10 @@ jobs:
         uses: CompeyDev/setup-rokit@v0.1.2
         with:
           token: ${{ github.token }}
+      
+      - name: Init RoKit
+        shell: bash
+        run: rokit init
 
       - name: Trust Rojo
         shell: bash
