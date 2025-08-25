@@ -31,11 +31,11 @@ System.Configuration = {}
 System.StepMode = "PreRender"
 
 function System:Init()
-    --runs once
+    -- This only runs once.
 end
 
 function System:Step()
-    -- This runs every frame!
+    -- This runs every frame, depending on the system's StepMode!
 end
 
 return System
