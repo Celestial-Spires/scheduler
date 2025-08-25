@@ -1,5 +1,5 @@
 name = "celestial_spires/scheduler"
-version = "0.1.0"
+version = "0.1.1"
 description = 'A one-script, dependencyless module to schedule "systems".'
 authors = ["Primiti_ve"]
 repository = "https://github.com/Celestial-Spires/scheduler"
@@ -7,8 +7,8 @@ license = "GPL-3.0"
 
 includes = [
   "pesde.toml",
-  "LICENSE",
-  "README",
+  "LICENSE.md",
+  "README.md",
   "src/**/*.luau",
 ]
 
